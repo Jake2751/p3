@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("seoul.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+
+
+}
+
+.btn-outline-primary {
+    background-color: #F4B6FF;
+    color: black;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5em;
+
+}
+
+
+
+.btn-outline-primary:hover {
+    background-color: #A8C6E8;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+    font-size: 20em;
+    transition: 1.5s ease-in;
+    transform: rotate(108000deg);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    font-size: 1.8em;
+    background-color: rgb(144, 180, 221);
+    color: black;
+
+}
